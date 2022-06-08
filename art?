@@ -1,0 +1,58 @@
+import turtle#imports python vizual
+
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor ("black")
+t.color('white')
+t.speed(10)
+t.hideturtle()
+t.width(10)
+
+def ws():
+	t.color('white')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def bs():
+	t.color('blue')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def rs():
+	t.color('red')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def gs():
+	t.color('green')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def ys():
+	t.color('yellow')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def os():
+	t.color('orange')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)	
+
+def ps():
+	t.color('purple')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+
+rs()
+t.fd(19)
+bs()
+t.fd(19)
+ws()
+t.fd(19)
+gs()
+t.fd(19)
+os()
+t.fd(19)
+ps()
