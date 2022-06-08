@@ -76,6 +76,14 @@ for count in range(7):
 	t.fd(18)
 t.rt(90)
 ws()
-t.rt(90)
 t.fd(18)
 ws()
+t.fd(18)
+for count in range(2):
+	bls()
+	t.fd(18)
+bls()
+t.fd(18)
+for count in range(2):
+	ws()
+	t.fd(18)
