@@ -2,7 +2,7 @@ import turtle#imports python vizual
 
 t = turtle.Turtle()
 s = turtle.Screen()
-s.bgcolor ("black")
+s.bgcolor ("blue")
 t.color('white')
 t.speed(10)
 t.hideturtle()
@@ -45,14 +45,37 @@ def ps():
 		t.fd(10)
 		t.rt(90)
 
-rs()
-t.fd(19)
-bs()
-t.fd(19)
+def bls():
+	t.color('black')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+
+
+for count in range(8):
+	ws()
+	t.fd(18)
+t.rt(90)
+t.fd(18)
 ws()
+t.fd(18)
+ws()
+t.fd(18)
+bls()
 t.fd(19)
-gs()
-t.fd(19)
-os()
-t.fd(19)
-ps()
+for count in range(3):
+	ws()
+	t.fd(18)
+ws()
+t.fd(10)
+t.rt(90)
+t.fd(18)
+
+for count in range(7):
+	ws()
+	t.fd(18)
+t.rt(90)
+ws()
+t.rt(90)
+t.fd(18)
+ws()
