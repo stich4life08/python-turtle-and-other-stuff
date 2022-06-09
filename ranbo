@@ -7,6 +7,11 @@ t.color('white')
 t.speed(10)
 #t.hideturtle()
 t.width(10)
+def brs3():
+	t.color('#9D8E3C')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
 def rs2():
 	t.color('#EE1211')
 	for count in range(4):
@@ -273,6 +278,26 @@ def ranbo():
 	grs()
 	t.fd(18)
 	brs2()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(138)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	brs3()
+	t.fd(18)
+	brs3()
+	t.fd(18)
+	rs2()
+	t.fd(18)
+	gs2()
+	
+
 	
 	
 	
