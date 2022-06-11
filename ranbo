@@ -138,6 +138,29 @@ def ranbo():
 	rs2()
 	t.fd(18)
 	brs3()
+	t.fd(2)
+	brs3()
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(138)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	gs2()
+	t.fd(18)
+	gs1()
+	t.fd(18)
+	gs2()
+	t.fd(18)
+	bls()
+	t.fd(18)
+	ws()
+	
+	
 
 	
 	
