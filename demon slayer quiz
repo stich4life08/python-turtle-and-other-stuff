@@ -46,10 +46,20 @@ def demonh():
 	if dsq == "14":
 		print("correct")
 		total = total+1
-		print("your current score is",total)
-		
+		time.sleep(0.25)
+		print("your current score is",total)	
 	else:
 			print("wrong")
+	dsq1 = input("what is the fith form of sun breathing?: ")
+	if dsq1 == "setting Sun Transformation":
+		print("smartass")
+		total = total+1
+		time.sleep(0.25)
+		print("your score is now",total)
+	else:
+		print("better luck next time")
+	
+		
 				 
 
 print("Welcome to my demon slayer quiz")
@@ -75,8 +85,4 @@ while notQuit:
 
   elif menu_selection == "3":
    notQuit = False
-
-  
-    
- 
-
+   
