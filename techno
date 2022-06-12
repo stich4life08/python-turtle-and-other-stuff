@@ -49,5 +49,22 @@ def bl1():
 		t.fd(10)
 		t.rt(90)
 
+def techno():
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
 
-		
+
+techno()
