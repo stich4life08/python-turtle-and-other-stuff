@@ -1,0 +1,82 @@
+import time
+
+def demone():
+	print("hello welcome to the demon slayer quiz(easy) i will will only add a few questions for now so i hope you enjoy")
+	dsq = input("who is the main character in demon slayer?\n")
+	if dsq == "tanjiro":
+		print("correct")
+	elif dsq:
+		print("wrong")
+	print("ok next question")
+
+	dsq1 = input("who has a demon sister?: ")
+
+	if dsq1 == "tanjiro":
+		print("correct, you have done the test correctly")
+	elif dsq1 == "gyutaro":
+		print("you are correct we hope you have a good day")
+	elif dsq1:
+		print("sorry you have failed the test on demon slayer")
+
+	dsq2 = input("who is the demon king?\n")
+
+	if dsq2 == "muzan":
+		print("correct!")
+
+	elif dsq2:
+		time.sleep(0.75)
+		print("sorry you are wrong")
+
+	dsq3 = input("how many upper rank demons are there?")
+
+	if dsq3 =="6":
+		print("correct")
+
+	elif dsq3:
+		time.sleep(0.75)
+		print("better luck next time")
+
+	
+
+
+def demonh():
+	total = 0
+	print("welcome try your best")
+	dsq = input("how many breathing techniques are there?: ")
+	if dsq == "14":
+		print("correct")
+		total = total+1
+		print("your current score is",total)
+		
+	else:
+			print("wrong")
+				 
+
+print("Welcome to my demon slayer quiz")
+#Creates empty list
+
+#Sets Boolean variable to control looping
+notQuit = True
+#Start While loop
+while notQuit:
+
+
+
+  
+  #Ask user for a menu selection and store input in variable
+  menu_selection = input("Select an option from the title:\n1:demon slayer(easy)\n2:demon slayer(hard)\n3:quit: \n")
+  #Checks if menu option 1 selected
+  if menu_selection == "1":
+    demone()
+  
+  elif menu_selection == "2":
+    demonh()
+ 
+
+  elif menu_selection == "3":
+   notQuit = False
+
+  
+    
+ 
+
