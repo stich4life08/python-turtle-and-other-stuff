@@ -1,0 +1,27 @@
+import turtle#imports python vizual
+import time 
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor ("blue")
+t.color('white')
+t.speed(10)
+#t.hideturtle()
+t.width(10)
+def y1():
+	t.color('#DBCC00')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+
+def p1():
+	t.color('#EC959B')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+
+
+def g1():
+	t.color('#A8E71E')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
