@@ -78,6 +78,15 @@ def demonh():
 		print("your score is now",total)
 	else:
 		print("better luck next time")
+	dsq2 = input("what is kokushibo's blood demon art?: ")
+	if dsq2 == "cresent moon blades":
+		print("have 2 points :)")
+		total = total + 2
+		time.sleep(0.25)
+		print("your total is",total)
+	else:
+		print("better luck next time")
+		
 	
 		
 				 
