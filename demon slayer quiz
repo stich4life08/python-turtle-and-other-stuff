@@ -27,7 +27,7 @@ def demone():
 		time.sleep(0.75)
 		print("sorry you are wrong")
 
-	dsq3 = input("how many upper rank demons are there?")
+	dsq3 = input("how many upper rank demons are there?: ")
 
 	if dsq3 =="6":
 		print("correct")
@@ -35,6 +35,26 @@ def demone():
 	elif dsq3:
 		time.sleep(0.75)
 		print("better luck next time")
+	dsq4 = input("how many lower rank demons are there?: ")
+	if dsq4 =="6":
+		print("correct")
+	else:
+		time.sleep(1.25)
+		print("better luck next time")
+	dsq5 = input("how many forms of water breathing is there?: ")
+	if dsq5 == "11":
+		print("correct you are smort")
+	else:
+		print("watch the whole season")
+
+	dsq6= input("who is the strongest demon other then muzan?: ")
+
+	if dsq6 =="kokushibo":
+		print("upper 1 he is")
+
+	else:
+		print("have a google of who it is")
+
 
 	
 
@@ -85,4 +105,8 @@ while notQuit:
 
   elif menu_selection == "3":
    notQuit = False
-   
+
+  
+    
+ 
+
