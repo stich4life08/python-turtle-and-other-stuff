@@ -71,7 +71,7 @@ def demonh():
 	else:
 			print("wrong")
 	dsq1 = input("what is the fith form of sun breathing?: ")
-	if dsq1 == "setting Sun Transformation":
+	if dsq1 == "setting Sun transformation":
 		print("smartass")
 		total = total+1
 		time.sleep(0.25)
@@ -86,6 +86,15 @@ def demonh():
 		print("your total is",total)
 	else:
 		print("better luck next time")
+	dsq3 = input("how many hashiras are there?: ")
+	if dsq3 == "9":
+		print("correct")
+		total = total + 1
+		print("your new total is 4")
+
+	else:
+		print("have another try")
+		
 		
 	
 		
@@ -103,17 +112,18 @@ while notQuit:
 
   
   #Ask user for a menu selection and store input in variable
-  menu_selection = input("Select an option from the title:\n1:demon slayer(easy)\n2:demon slayer(hard)\n3:quit: \n")
+  menu_selection = input("Select an option from the title:\n1:demon slayer(easy): \n2:demon slayer(hard): \n3:discord:  \n4:quit: ")
   #Checks if menu option 1 selected
   if menu_selection == "1":
     demone()
   
   elif menu_selection == "2":
     demonh()
- 
-
   elif menu_selection == "3":
-   notQuit = False
+   print("here is our discord\nhttps://discord.gg/QXANgzfzsT")	
+
+  elif menu_selection == "4":
+  	notQuit = False
 
   
     
