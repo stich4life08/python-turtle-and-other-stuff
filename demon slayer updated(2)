@@ -8,27 +8,20 @@
 	print("ok next question")
 
 	dsq1 = input("who has a demon sister?: ")
-
 	if dsq1 == "tanjiro":
 		print("correct, you have done the test correctly")
 	elif dsq1 == "gyutaro":
 		print("you are correct we hope you have a good day")
 	elif dsq1:
 		print("sorry you have failed the test on demon slayer")
-
 	dsq2 = input("who is the demon king?\n")
-
 	if dsq2 == "muzan":
 		print("correct!")
-
 	elif dsq2:
 		print("sorry you are wrong")
-
 	dsq3 = input("how many upper rank demons are there?: ")
-
 	if dsq3 =="6":
 		print("correct")
-
 	elif dsq3:
 		print("better luck next time")
 	dsq4 = input("how many lower rank demons are there?: ")
@@ -41,36 +34,25 @@
 		print("correct you are smort")
 	else:
 		print("watch the whole season")
-
 	dsq6= input("who is the strongest demon other then muzan?: ")
-
 	if dsq6 =="kokushibo":
 		print("upper 1 he is")
-
 	else:
 		print("have a google of who it is")
-
-
 	dsq7=input("who is taller? tanjiro or nezuko?\n")
-
 	if dsq7 == "tanjiro" or "Nezuko":
 		print("correct he is taller")
 	elif dsq7 == "nezuko":
 		print("wrong she short")
 	else:
 		print("better luck next time")
-
 	dsq8 = input("who is taller shinobu or mitsuri?\n")
-
 	if dsq8 == "mitsuri":
 		print("correct you are smort")
-
 	elif dsq8 == "shinobu":
 		print("wrong she is 4'11")
-
 	else:
 		print("better luck next time")
-
 def demonh():
 	total = 0
 	print("welcome try your best")
