@@ -1,32 +1,16 @@
 import questions as q
-
-
 print("Welcome to my demon slayer quiz")
-#Creates empty list
-
-#Sets Boolean variable to control looping
 notQuit = True
-
 #Start While loop
 while notQuit:
   menu_selection = input("Select an option from the title:\n1:demon slayer(easy): \n2:demon slayer(hard): \n3:discord:  \n4:code: \n5:quit: ")
   if menu_selection == "1":
     q.demone()
-  
   elif menu_selection == "2":
     q.demonh()
   elif menu_selection == "3":
    print("here is our discord\nhttps://discord.gg/QXANgzfzsT")	
-
   elif menu_selection == "4":
   	print("all the code can be found at \nhttps://github.com/stich4life08/python-turtle-and-other-stuff")
-
   elif menu_selection == "5":
-    notQuit = False	 
-		
-
-	
-  
-    
- 
-
+    notQuit = False
