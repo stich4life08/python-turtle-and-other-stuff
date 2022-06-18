@@ -33,7 +33,7 @@ def techno():
 		for count in range(4):
 			t.fd(10)
 			t.rt(90)
-	def b1():
+	def b1(): 
 		t.color('#0A02EB')
 		for count in range(4):
 			t.fd(10)
