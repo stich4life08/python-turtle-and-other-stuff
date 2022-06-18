@@ -6,50 +6,436 @@ t.color('white')
 t.speed(10)
 t.width(10)
 
+def techno():
+	def y1():
+		t.color('#DBCC00')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	
+	def p1():
+		t.color('#EC959B')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def p2():
+		t.color('#9C5052')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def p3():
+		t.color('#EE9EA1')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def g1():
+		t.color('#A8E71E')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def b1():
+		t.color('#0A02EB')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def b2():
+		t.color('#4D6DF4')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def w1():
+		t.color('#FFFFFF')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def bl1():
+		t.color('#020001')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	y1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	y1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	b2()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	b1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	y1()
+	t.fd(18)
+	y1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()	
+	for count in range(7):
+		y1()
+		t.fd(18)
+	y1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	bl1()
+	t.fd(18)
+	w1()
+	t.fd(18)
+	for count in range(3):
+		p1()
+		t.fd(18)
+	p1()
+	t.fd(18)
+	w1()
+	t.fd(19)
+	bl1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	p1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	for count in range(3):
+		p3()
+		t.fd(18)
+	p3()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	p1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p2()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p2()
+	t.fd(18)
+	p1()
+	t.fd(18)
+	p1()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	for count in range(7):
+		p1()
+		t.fd(18)
+	p1()
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(136)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	for count in range(7):
+		p1()
+		t.fd(18)
+	p1()	
+	
+		
+	
 
-def y1():
-	t.color('#DBCC00')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
 
-def p1():
-	t.color('#EC959B')
-	for count in range(4):
+
+
+def ranbo():
+	s.bgcolor ("blue")
+	def brs3():
+		t.color('#9D8E3C')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def rs2():
+		t.color('#EE1211')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def rs1():
+		t.color('#7B0908')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def brs2():
+		t.color('#D5C033')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def brs1():
+		t.color('#9B8B3B')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def gs2():
+		t.color('#2DF12B')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def gs1():
+		t.color('#147A18')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def grs():
+		t.color('#7E7E7E')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def brs():
+		t.color('brown')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def ws():
+		t.color('white')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def bs():
+		t.color('blue')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def rs():
+		t.color('red')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def gs():
+		t.color('#16c919')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def ys():
+		t.color('yellow')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	def os():
+		t.color('orange')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)	
+	
+	def ps():
+		t.color('purple')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+	
+	def bls():
+		t.color('black')
+		for count in range(4):
+			t.fd(10)
+			t.rt(90)
+			
+	brs2()
+	t.fd(18)
+	bls()
+	t.fd(18)
+	brs2()
+	t.fd(18)
+	bls()
+	t.fd(18)
+	bls()
+	t.fd(18)
+	brs2()
+	t.fd(18)
+	grs()
+	t.fd(18)
+	brs2()
+	t.color('red')
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(138)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	brs3()
+	t.fd(18)
+	brs3()
+	t.fd(18)
+	rs2()
+	t.fd(18)
+	gs2()
+	t.fd(18)
+	brs3()
+	t.fd(18)
+	brs3()
+	t.fd(18)
+	rs2()
+	t.fd(18)
+	brs3()
+	t.fd(2)
+	brs3()
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(138)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	t.color('red')
+	for coint in range(7):
+		brs3()
+		t.fd(18)
+	t.fd(2)
+	brs3()
+	t.pu()
+	t.fd(10)
+	t.rt(90)
+	t.fd(10)
+	t.lt(90)
+	t.bk(138)
+	t.rt(90)
+	t.fd(4)
+	t.lt(90)
+	t.pd()
+	gs2()
+	t.fd(18)
+	gs1()
+	t.fd(18)
+	gs2()
+	t.fd(18)
+	bls()
+	t.fd(18)
+	ws()
+	t.fd(18)
+	rs1()
+	t.fd(18)
+	rs2()
+	t.fd(18)
+	rs1()
+	t.fd(2)
+	rs1()
+	for count in range(3):
+		t.pu()
 		t.fd(10)
 		t.rt(90)
-def p2():
-	t.color('#9C5052')
-	for count in range(4):
+		t.fd(10)
+		t.lt(90)
+		t.bk(138)
+		t.rt(90)
+		t.fd(4)
+		t.lt(90)
+		t.pd()
+		for count in range(4):
+			bls()
+			t.fd(18)
+		ws()
+		t.fd(18)
+		ws()
+		t.fd(18)
+		ws()
+		t.fd(18)
+		ws()
+		t.fd(2)
+		ws()
+		t.pu()
 		t.fd(10)
 		t.rt(90)
-def p3():
-	t.color('#EE9EA1')
-	for count in range(4):
 		t.fd(10)
+		t.lt(90)
+		t.bk(138)
 		t.rt(90)
-def g1():
-	t.color('#A8E71E')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
-def b1():
-	t.color('#0A02EB')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
-def b2():
-	t.color('#4D6DF4')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
-def w1():
-	t.color('#FFFFFF')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
-def bl1():
-	t.color('#020001')
-	for count in range(4):
-		t.fd(10)
-		t.rt(90)
+		t.fd(4)
+		t.lt(90)
+		t.pd()
+		for count in range(3):
+			bls()
+			t.fd(18)
+		ws()
+		t.fd(18)
+		for count in range(3):
+			ws()
+			t.fd(18)
+		ws()
+		t.fd(2)
+		ws()
+		
