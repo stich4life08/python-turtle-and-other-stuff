@@ -1,0 +1,8 @@
+import sys,time,os
+
+message = "hello world how are you"
+
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.125)
