@@ -1,8 +1,17 @@
 import sys,time,os
 
-message = "hello world how are you"
+message = "Computer: hello there nice to meet you.\nMe: nice to meet you\nComputer: goodbye."
 
-for char in message:
-	sys.stdout.write(char)
-	sys.stdout.flush()
-	time.sleep(0.125)
+def type(message):
+	for char in message:
+		sys.stdout.write(char)
+		sys.stdout.flush()
+		time.sleep(0.1)
+		if char !="\n":
+			time.sleep(0.1)
+		else:
+			time.sleep(1)
+
+os.system("clear")
+
+type(message)
