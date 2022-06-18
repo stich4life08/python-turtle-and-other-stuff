@@ -1,0 +1,55 @@
+import turtle
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor ("white")
+t.color('white')
+t.speed(10)
+t.width(10)
+
+
+def y1():
+	t.color('#DBCC00')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+
+def p1():
+	t.color('#EC959B')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def p2():
+	t.color('#9C5052')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def p3():
+	t.color('#EE9EA1')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def g1():
+	t.color('#A8E71E')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def b1():
+	t.color('#0A02EB')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def b2():
+	t.color('#4D6DF4')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def w1():
+	t.color('#FFFFFF')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
+def bl1():
+	t.color('#020001')
+	for count in range(4):
+		t.fd(10)
+		t.rt(90)
