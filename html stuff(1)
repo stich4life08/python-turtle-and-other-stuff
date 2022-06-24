@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0>">
+		<title>i am fail</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+
+
+<body>
+	<div class="container">
+		<a href = "https://rusherhack.org/">
+		<button class="btn-1">rusherhack</button>
+		<a href = "https://github.com/CoolClientCollectorz/future-for-everyone">
+		<button class="btn-2">future</button>
+		<a href = "https://konasclient.com/">
+		<button class="btn-3">konas</button>
+		<a href="https://github.com/IUDevman/gamesense-client">
+		<button class="btn-4">gamesens</button>
+	</div>
+	
+
+</body>
+
+</html>
