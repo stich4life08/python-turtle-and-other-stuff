@@ -16,7 +16,13 @@ class snake(object):
 		pass
 	def handle_keys(self):
 		pass
-	
+
+def drawgrid(surface):
+	for y in range(0, int(gridh)):
+		for x in range(0, int(gridw)):
+			if (x + y) % 2  ==0:
+				r = pygame.Rect((x*gridsize, y*gridsize), gridsize, gridsize))
+				pygame.draw.rect(surface, (93 ,216, 228), r)
 
 class food(object):
 	def __init__(self):
@@ -27,10 +33,10 @@ class food(object):
 		pass
 
 screenw = 400
-screanh = 400
+screenh = 400
 
 gridsize = 20
-gridw = screanh / gridsize
+gridw = screenh / gridsize
 gridh= screenw / gridsize
 
 up = (0,-1)
@@ -38,3 +44,18 @@ down = (0,1)
 left = (-1,0)
 right = (1,0)
 
+
+def main():
+	pygame.init()
+
+	clock = pygame.time.clock()
+	screen = pygame.display.set.mode((screenw, sreenh),0,32)
+
+
+	surface = pygame.Surface(screen.get_size())
+	surface = surface.convert()
+	
+
+
+
+main()
