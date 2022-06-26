@@ -3,13 +3,22 @@ import sys
 import random
 
 class snake(object):
-	pass
+	def __init__(self):
+		self.length = 1
+		self.positions = [((screenw / 2), (screenh / 2))]
+		self.direction = random.choice([UP,DOWN, LEFT, RIGHT])
+		self.color - (12,24,47)
+
 	def get_head_pos(self):
-		pass
+		return self.positions[0]
 	def turn(self,point):
-		pass
+		if self.length > 1 and (point[0] * -1, point[1] * -1) == self.direction:
+			return
+		else:
+			self.direction = point
 	def move(self):
-		pass
+		cur = self,get_head_pos()
+		x, y = self.direction
 	def reset(self):
 		pass
 	def draw(sald,surface):
