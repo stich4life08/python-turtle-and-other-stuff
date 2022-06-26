@@ -21,10 +21,10 @@ def drawgrid(surface):
 	for y in range(0, int(gridh)):
 		for x in range(0, int(gridw)):
 			if (x + y) % 2  ==0:
-				r = pygame.Rect((x*gridsize, y*gridsize), gridsize, gridsize))
+				r = pygame.Rect((x*gridsize, y*gridsize), (gridsize, gridsize))
 				pygame.draw.rect(surface, (93 ,216, 228), r)
 			else:
-				rr = pygame.Rect((x*gridsize, y*gridsize), gridsize, gridsize))
+				rr = pygame.Rect((x*gridsize, y*gridsize), (gridsize, gridsize))
 				pygame.draw.rect(surface, (84 ,194, 205), rr)
 
 class food(object):
@@ -57,6 +57,19 @@ def main():
 
 	surface = pygame.Surface(screen.get_size())
 	surface = surface.convert()
+	drawgrid(surface)
+
+	snake = snake()
+	food = food()
+
+	score = 0 
+	while(True):
+		clock.tick(10)
+		#handle events
+		screen.blit(surface, (0, 0))
+		pygame.display.update()
+		
+
 	
 
 
