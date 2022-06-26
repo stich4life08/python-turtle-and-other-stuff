@@ -23,6 +23,9 @@ def drawgrid(surface):
 			if (x + y) % 2  ==0:
 				r = pygame.Rect((x*gridsize, y*gridsize), gridsize, gridsize))
 				pygame.draw.rect(surface, (93 ,216, 228), r)
+			else:
+				rr = pygame.Rect((x*gridsize, y*gridsize), gridsize, gridsize))
+				pygame.draw.rect(surface, (84 ,194, 205), rr)
 
 class food(object):
 	def __init__(self):
