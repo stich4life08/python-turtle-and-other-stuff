@@ -23,6 +23,7 @@ def sig():
 	t.lt(45)
 	t.fd(2)
 def techno():
+	t.width(10)
 	def y1():
 		t.color('#DBCC00')
 		for count in range(4):
@@ -235,6 +236,7 @@ def techno():
 
 
 def ranbo():
+	t.width(10)
 	s.bgcolor ("blue")
 	def brs3():
 		t.color('#9D8E3C')
@@ -456,6 +458,7 @@ def ranbo():
 		ws()
 
 def popbob():
+	t.width(10)
 	s.bgcolor ("blue")
 	def ws():
 		t.color('#D6D2D1')
@@ -647,9 +650,12 @@ def popbob():
 	ws()
 	t.fd(18)
 	ws1()
+	time.sleep(1)
+	t.clear()
 
 
 def tommy():
+	t.width(10)
 	s.bgcolor("#EB6060")
 	def y1():
 		t.color("#C8B950")
@@ -901,8 +907,9 @@ def tommy():
 	t.pu()
 	t.goto(125,-160)
 	t.pd()
-	
 	sig()
+	time.sleep(1)
+	t.clear()
 def printer():
 	t.hideturtle()
 	s.bgcolor("blue")
@@ -917,9 +924,10 @@ def printer():
 		t.lt(90)
 		t.pd()
 		t.bk(100)
+	time.sleep(1)
+	t.clear()
 	
-	
-def printerchal():
+def flag():
 	t.hideturtle()
 	s.bgcolor("black")
 	t.color("red")
@@ -1070,6 +1078,6 @@ def printerchal():
 	t.lt(90)
 	t.pd()
 	t.bk(100)
-	time.sleep(0.75)
+	time.sleep(1)
 	t.clear()
 	
